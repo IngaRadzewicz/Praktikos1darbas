@@ -1,5 +1,6 @@
 package com.example.praktikos1darbas;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -26,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void TextChange(View view) {
         TextView ManoTextView = findViewById(R.id.ManoTextView);
-        ManoTextView.setText("Mano vardas Inga");
+        ManoTextView.setText(R.string.mano_vardas_inga);
     }
-}
+
+
+    public void ChangeTextColor(View view) {
+        TextView ManoTextView = findViewById(R.id.ManoTextView);
+        // Change text color to green
+        ManoTextView.setTextColor(Color.RED);
+    }
+    }
+
