@@ -22,24 +22,9 @@
         android:id="@+id/ManoButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:onClick="TextChange"
         android:text="spausk"
+        android:onClick="TextChange"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ManoTextView"
-        tools:ignore="HardcodedText" />
-
-    <Button
-        android:id="@+id/ManoButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:text="Pakeisti spalvą"
-        android:onClick="ChangeTextColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ManoTextView"
         tools:ignore="HardcodedText" />
